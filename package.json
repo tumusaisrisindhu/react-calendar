@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "cpx \"public/_redirects\" build/"
   },
   "eslintConfig": {
     "extends": [
@@ -36,9 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
-  "scripts": {
-    "build": "react-scripts build",
-    "postbuild": "cp public/_redirects build/"
   }
 }
