@@ -191,10 +191,14 @@
   padding: 6px 14px;
   border: none;
   border-radius: 6px;
-  background-color: #dadada;
-  color: #333;
+  background-color: #448bf6;
+  color: white;
   cursor: pointer;
 }
+
+/* .add-event-button:hover {
+  background-color: #ccc;
+} */
 
 .add-event {
   display: flex;
